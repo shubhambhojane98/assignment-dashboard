@@ -12,7 +12,16 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div className="p-4 space-y-6 max-w-6xl mx-auto">
-      <h1 className="text-2xl font-medium">Dashboard</h1>
+      <div className="flex justify-between">
+        <h1 className="text-2xl font-medium">Dashboard</h1>
+        <Image
+          src="/Shape.svg"
+          alt="Create Invoice"
+          width={40}
+          height={40}
+          className="mb-3 rounded-2xl"
+        />
+      </div>
       <div className="bg-gray-100 rounded-2xl flex flex-col items-center justify-between p-8 cursor-pointer hover:bg-gray-200 transition">
         {/* <CirclePlus className="w-10 h-10 mb-3 text-indigo-500" /> */}
         <Image
