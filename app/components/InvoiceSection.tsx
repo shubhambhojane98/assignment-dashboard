@@ -6,28 +6,28 @@ import React, { useState } from "react";
 const invoices = [
   {
     id: "001",
-    client: "Acme Corp",
+    client: " Tech Solution Corp",
     amount: 2500,
     due: "2025-06-09",
     status: "Paid",
   },
   {
     id: "002",
-    client: "Globex Ltd",
+    client: "Flipkart Ltd",
     amount: 4200,
     due: "2025-07-15",
     status: "Overdue",
   },
   {
     id: "003",
-    client: "Soylent Inc",
+    client: "Wipro",
     amount: 6200,
     due: "2025-08-01",
     status: "Awaited",
   },
   {
     id: "004",
-    client: "Initech",
+    client: "TCS",
     amount: 3000,
     due: "2025-08-20",
     status: "Dispute",
