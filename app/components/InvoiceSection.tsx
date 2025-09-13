@@ -82,7 +82,9 @@ const InvoiceSection = () => {
                         ? "bg-red-100 text-red-700"
                         : invoice.status === "Awaited"
                         ? "bg-yellow-100 text-yellow-700"
-                        : "bg-purple-100 text-purple-700"
+                        : invoice.status === "Dispute"
+                        ? "bg-red-100 text-red-500"
+                        : "bg-blue-100 text-blue-500"
                     }
                   >
                     {invoice.status}
